@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# codename `devs` nextdoor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr/>
 
-## Available Scripts
+<h2> The following has been installed in this repo. </h2>
 
-In the project directory, you can run:
+- Tailwind.css
+- Redux
 
-### `npm start`
+Once forked and cloned:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```js
+npm install
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+or
 
-### `npm test`
+```js
+npm i
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Task: to create an amazon clone
+Duration: 2 - 3 week sprint
 
-### `npm run build`
+|            <h2>Task</h2>             | <h2>Duration</h2> |
+| :----------------------------------: | ----------------- |
+| To create a functioning amazon clone | 2 - 3 Week Sprint |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Development Team's Focus
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Functionality
+2. Usability
+3. Performance
+4. Security
+5. Scalability
+6. Maintainability
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Team Structure
+| <h2>Dev Team</h2> | <h2>Role</h2> |
+| :--------------: | :-------: |
+| <b>Harold F.</b> | Team Lead |
+| <b>Joshua N.</b> | Dev Lead |
+| <b>Keeanu R.</b> | Test Lead |
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech used in this project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React.js
+- Tailwind.css
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+_maybe_
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Redux
+- Routing
+- Cypress Testing
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Variable Names and Function Name [Structure]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Resources
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Tailwind.css](https://tailwindcss.com/)
