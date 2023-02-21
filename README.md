@@ -19,9 +19,6 @@ or
 npm i
 ```
 
-Task: to create an amazon clone
-Duration: 2 - 3 week sprint
-
 |            <h2>Task</h2>             | <h2>Duration</h2> |
 | :----------------------------------: | ----------------- |
 | To create a functioning amazon clone | 2 - 3 Week Sprint |
@@ -57,8 +54,18 @@ _maybe_
 
 ---
 
+## [Miro Board](https://miro.com/app/board/uXjVPlpwwDI=/?share_link_id=170132353600)
+
+![MiroBoardScreenShot](./assets/MiroBoard_Screenshot.png)
+
+## [Project Goal](https://www.amazon.com/)
+
+![Project Goal](./assets/Amazon_Clone_Goal.png)
+
 # Variable Names and Function Name [Structure]
 
 # Resources
 
 [Tailwind.css](https://tailwindcss.com/)
+
+[Adding / Editing Wiki Pages](https://docs.github.com/en/communities/documenting-your-project-with-wikis/adding-or-editing-wiki-pages)
