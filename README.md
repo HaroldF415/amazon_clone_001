@@ -59,13 +59,13 @@ _maybe_
 - git remote add upstream https://github.com/whoever/whatever.git (only for the first time)
 - git fetch upstream (Grabs Changes From the Original Repo)
 - git checkout main (Your main branch)
-- git merge upstream/main (Merges the changes from the oringial repo)
+- git merge upstream/main (Merges the changes from the original repo)
 - git checkout (Your testing branch)
 - git merge main (Grabs changes from your main)
 - git add . (Add changes to your testing branch)
 - git commit (Commit changes to testing branch)
-- git push (Push changes to you github repo)
-- make a pull request to the oringal repo
+- git push (Push changes to you Github repo)
+- make a pull request to the original repo
 
 ## [Miro Board](https://miro.com/app/board/uXjVPlpwwDI=/?share_link_id=170132353600)
 
