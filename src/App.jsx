@@ -1,7 +1,8 @@
 import { NavBar } from "./components";
+import { useState, useEffect } from "react";
+import { v1 as generateUniqueID } from "uuid";
 import TopDiv from "./components/TopDiv";
 import BottomDiv from "./components/BottomDiv";
-import { useState, useEffect } from "react";
 
 import "./styles/App.css";
 
@@ -24,8 +25,8 @@ const [mock, setMock] = useState([])
     <div className="App">
       <NavBar />
       <main>
-        <TopDiv mock={mock}/>
-        <BottomDiv mock={mock}/>
+        <TopDiv mock={mock} generateUniqueID={generateUniqueID}/>
+        <BottomDiv mock={mock} generateUniqueID={generateUniqueID}/>
       </main>
     </div>
   );
