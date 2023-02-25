@@ -1,8 +1,6 @@
-import { NavBar } from "./components";
 import { useState, useEffect } from "react";
 import { v1 as generateUniqueID } from "uuid";
-import TopDiv from "./components/TopDiv";
-import BottomDiv from "./components/BottomDiv";
+import { NavBar, TopDiv, BottomDiv } from "./components";
 
 import axios from "axios";
 
