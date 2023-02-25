@@ -1,3 +1,6 @@
 import NavBar from "./NavBar";
+import TopDiv from "./TopDiv";
+import BottomDiv from "./BottomDiv";
 
-export { default as NavBar } from "./NavBar";
+// export all components
+export { NavBar, TopDiv, BottomDiv };
