@@ -7,26 +7,26 @@ import BottomDiv from "./components/BottomDiv";
 import "./styles/App.css";
 
 function App() {
-const [mock, setMock] = useState([])
+  const [mock, setMock] = useState([]);
 
   useEffect(() => {
-    function mockApi () {
-      fetch('https://dummyjson.com/products/')
-      .then(result => result.json())
-      .then(data => {
-        setMock(data.products)
-      })
-      .catch((error) => console.log(error))
+    function mockApi() {
+      fetch("https://dummyjson.com/products/")
+        .then((result) => result.json())
+        .then((data) => {
+          setMock(data.products);
+        })
+        .catch((error) => console.log(error));
     }
-    mockApi()
-  }, [])
+    mockApi();
+  }, []);
 
   return (
     <div className="App">
       <NavBar />
       <main>
-        <TopDiv mock={mock} generateUniqueID={generateUniqueID}/>
-        <BottomDiv mock={mock} generateUniqueID={generateUniqueID}/>
+        <TopDiv mock={mock} generateUniqueID={generateUniqueID} />
+        <BottomDiv mock={mock} generateUniqueID={generateUniqueID} />
       </main>
     </div>
   );
