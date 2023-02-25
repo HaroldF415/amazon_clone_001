@@ -4,6 +4,8 @@ import { v1 as generateUniqueID } from "uuid";
 import TopDiv from "./components/TopDiv";
 import BottomDiv from "./components/BottomDiv";
 
+import axios from "axios";
+
 import "./styles/App.css";
 
 function App() {
@@ -11,10 +13,10 @@ function App() {
 
   useEffect(() => {
     function mockApi() {
-      fetch("https://dummyjson.com/products/")
-        .then((result) => result.json())
-        .then((data) => {
-          setMock(data.products);
+      axios
+        .get("https://dummyjson.com/products/")
+        .then((result) => {
+          setMock(result.data.products);
         })
         .catch((error) => console.log(error));
     }
