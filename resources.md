@@ -7,3 +7,7 @@
 [Git Forks and Upstreams: How-to and a cool tip](https://www.atlassian.com/git/tutorials/git-forks-and-upstreams)
 
 [Using Barrel Exports To Organize React Components](https://blog.logrocket.com/using-barrel-exports-organize-react-components/)
+
+[How to Make a Carousel](https://www.makeuseof.com/react-js-interactive-carousel-build/)
+
+[Merge or Rebase?](https://www.atlassian.com/git/tutorials/git-forks-and-upstreams)
