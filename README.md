@@ -46,6 +46,7 @@ Team Structure
 - React.js
 - Tailwind.css
 - Axios
+- Toolkit Redux
 - Redux Toolkit
 
 _maybe_
