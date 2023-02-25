@@ -11,3 +11,9 @@
 [How to Make a Carousel](https://www.makeuseof.com/react-js-interactive-carousel-build/)
 
 [Merge or Rebase?](https://www.atlassian.com/git/tutorials/git-forks-and-upstreams)
+
+[React-currying](https://www.carlrippon.com/using-currying-to-pass-additional-data-to-react-event-handlers/)
+
+[Axios](https://github.com/axios/axios)
+
+[Axios Docs](https://axios-http.com/docs)
