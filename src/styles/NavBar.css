@@ -1,0 +1,28 @@
+
+header {
+    background: #131921;
+    color: white;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.amazonLogo {
+    width: auto;
+    height: 30px;
+}
+
+#departments {
+    color: #131921;
+    background: #f3f3f3;    
+}
+
+.shoppingCart {
+
+}
+
+.searchIcon {
+    background: #febd69;
+}
