@@ -45,6 +45,9 @@ Team Structure
 
 - React.js
 - Tailwind.css
+- Axios
+- Toolkit Redux
+- Redux Toolkit
 
 _maybe_
 
@@ -54,8 +57,8 @@ _maybe_
 
 ---
 
-
 ## Git Commands
+
 - git remote add upstream https://github.com/whoever/whatever.git (only for the first time)
 - git fetch upstream (Grabs Changes From the Original Repo)
 - git checkout main (Your main branch)
