@@ -36,7 +36,7 @@ function BottomDiv ({mock, generateUniqueID}) {
 
     return (
         <div className="grid grid-cols-2">
-        <div className="max-w-[700px] h-[500px] w-full m-auto py-10 px-4 relative group bg-white">
+        <div className="max-w-[700px] h-[500px] w-full m-auto py-16 px-4 relative group bg-white">
             <h4 className="text-xl font-bold my-5" >Laptops</h4>
             <div style={{backgroundImage: `url(${filterByCatLap[currentIndexLap]})`}}
             className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
@@ -50,7 +50,7 @@ function BottomDiv ({mock, generateUniqueID}) {
             <FontAwesomeIcon onClick={() => nextSlideLap()} icon={faGreaterThan} />
         </div>
         </div>
-        <div className="max-w-[700px] h-[500px] w-full m-auto py-10 px-4 relative group bg-white">
+        <div className="max-w-[700px] h-[500px] w-full m-auto py-16 px-4 relative group bg-white">
             <h4 className="text-xl font-bold my-5" >Fragrances</h4>
             <div style={{backgroundImage: `url(${filterByCatFrag[currentIndexFrag]})`}}
             className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
