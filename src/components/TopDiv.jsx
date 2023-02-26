@@ -1,8 +1,7 @@
 function TopDiv ({mock, generateUniqueID}) {
-    const topData = mock.slice(0, mock.length/2)
     return(
         <div>
-            {topData.map((item) => {return (
+            {mock.map((item) => {return (
                 <div key={generateUniqueID()}>
                     <h4>{item.title}</h4>
                         {item.images.map((img) => {return(
