@@ -6,9 +6,7 @@ function BottomDiv ({mock, generateUniqueID}) {
     const [currentIndex, setCurrentIndex] = useState(0);
     // make a random generator function to pick the catorgory for the carousel
 
-    const filterByCat = mock.filter((item) => item.category === "laptops").flatMap((item) => {return (
-        item.images.map((img) => {return img})
-    )})
+    const filterByCat = mock.filter((item) => item.category === "laptops").flatMap((item) => item.images);
 
     function preSlide () {
         const isFirstSlide = currentIndex === 0;
@@ -23,8 +21,8 @@ function BottomDiv ({mock, generateUniqueID}) {
     }
 
     return (
-        <div className="max-w-[700px] h-[500px] w-full m-auto py-16 px-4 relative group">
-            <h4>Laptops</h4>
+        <div className="max-w-[700px] h-[500px] w-full m-auto py-10 px-4 relative group bg-white">
+            <h4 className="text-xl font-bold my-5" >Laptops</h4>
             <div style={{backgroundImage: `url(${filterByCat[currentIndex]})`}}
             className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
             key={generateUniqueID()

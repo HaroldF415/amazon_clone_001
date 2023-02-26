@@ -28,6 +28,7 @@ function App() {
       <NavBar />
       <main className="bg-gray-200">
         <TopDiv mock={mock} generateUniqueID={generateUniqueID} />
+        <br></br>
         <BottomDiv mock={mock} generateUniqueID={generateUniqueID} />
       </main>
     </div>
