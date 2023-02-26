@@ -5,3 +5,6 @@ Added two resources to our resource.md file, one about how to make a carousel an
 
 ### 02/24/2023
 added an api we could use. Displayed basic info.
+
+### 02/26/2023 
+Using tailwind I formatted the TopDiv items. I also made a working carousel in BottomDiv.
