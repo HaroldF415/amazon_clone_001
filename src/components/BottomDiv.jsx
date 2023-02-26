@@ -4,8 +4,9 @@ import { useState } from 'react';
 
 function BottomDiv ({mock, generateUniqueID}) {
     const [currentIndex, setCurrentIndex] = useState(0);
+    // make a random generator function to pick the catorgory for the carousel
 
-    const filterByCat = mock.filter((item) => item.category === "smartphones").flatMap((item) => {return (
+    const filterByCat = mock.filter((item) => item.category === "laptops").flatMap((item) => {return (
         item.images.map((img) => {return img})
     )})
 
@@ -22,17 +23,17 @@ function BottomDiv ({mock, generateUniqueID}) {
     }
 
     return (
-        <div className="max-w-[1400px] h-[500px] w-full m-auto py-16 px-4 relative group">
-            <h4>Smartphones</h4>
+        <div className="max-w-[700px] h-[500px] w-full m-auto py-16 px-4 relative group">
+            <h4>Laptops</h4>
             <div style={{backgroundImage: `url(${filterByCat[currentIndex]})`}}
             className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
             key={generateUniqueID()
             }>
         </div> 
-        <div className="hidden group-hover:block absolute top-[50%] -translate-y-[-50%] letf-5 text-3xl rounded-full p-2 bg-black/20 text-white curosr-pointer">
+        <div className="hidden group-hover:block absolute top-[50%] -translate-y-[-50%] left-10 text-3xl p-2 bg-black/20 text-white cursor-pointer">
             <FontAwesomeIcon onClick={() => preSlide()} icon={faLessThan} />
         </div>
-        <div className="hidden group-hover:block absolute top-[50%] -translate-y-[-50%] right-5 text-3xl rounded-full p-2 bg-black/20 text-white curosr-pointer">
+        <div className="hidden group-hover:block absolute top-[50%] -translate-y-[-50%] right-10 text-3xl p-2 bg-black/20 text-white cursor-pointer">
             <FontAwesomeIcon onClick={() => nextSlide()} icon={faGreaterThan} />
         </div>
         </div>  
