@@ -17,7 +17,7 @@ function BottomDiv ({mock, generateUniqueID}) {
     }
 
     function preSlideFrag () {
-        const newIndex = currentIndexLap === 0 ? filterByCatFrag.length - 1 : currentIndexLap - 1; 
+        const newIndex = currentIndexFrag === 0 ? filterByCatFrag.length - 1 : currentIndexFrag - 1; 
         setCurrentIndexFrag(newIndex);
         console.log(currentIndexFrag)
     }
@@ -51,7 +51,7 @@ function BottomDiv ({mock, generateUniqueID}) {
         </div>
         </div>
         <div className="max-w-[700px] h-[500px] w-full m-auto py-10 px-4 relative group bg-white">
-            <h4 className="text-xl font-bold my-5" >fragrances</h4>
+            <h4 className="text-xl font-bold my-5" >Fragrances</h4>
             <div style={{backgroundImage: `url(${filterByCatFrag[currentIndexFrag]})`}}
             className="w-full h-full rounded-2xl bg-center bg-cover duration-500"
             key={generateUniqueID()
