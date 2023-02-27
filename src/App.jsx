@@ -31,6 +31,16 @@ function App() {
         <br></br>
         <BottomDiv mock={mock} generateUniqueID={generateUniqueID} />
       </main>
+      {/*  /\ /\
+       ("){=^.^=}(")
+         \\ ( ) //
+          | ( ) |         
+        (")/|| \(")
+         \/ ||  \/
+             \\
+              \\
+               V  
+      */}
     </div>
   );
 }
