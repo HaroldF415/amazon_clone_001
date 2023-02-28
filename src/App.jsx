@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import { v1 as generateUniqueID } from "uuid";
-// import ReactDOM from "react-dom";
-// import { BrowserRouter } from "react-router-dom";
 import { NavBar, TopDiv, BottomDiv } from "./components";
 
 import axios from "axios";
