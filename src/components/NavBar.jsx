@@ -6,9 +6,9 @@ import shoppingCart from "../Icons/shoppingCart.png"
 
 const NavBar = () => {
   return (
-    <header>
+    <nav>
       <img src={amazonLogo} alt="Amazon Logo" className="amazonLogo" />
-      <div>
+      <div className="locationDiv">
         <img src={locationIcon} alt="Location Icon" />
         <p>Hello</p>
         <p>Select your address</p>
@@ -22,7 +22,7 @@ const NavBar = () => {
         <span></span>Returns<span>& Orders</span>
       </div>
       <img src={shoppingCart} alt="Shopping Cart Icon" className="shoppingCart" />
-    </header>
+    </nav>
   );
 };
 export default NavBar;

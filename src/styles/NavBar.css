@@ -1,17 +1,32 @@
+@font-face {
+    font-family: "AmazonEmberBold";
+    src: local("AmazonEmberBold"),
+        url("./font/Ember/AmazonEmber_Bd.ttf") format("truetype");
 
-header {
+}
+
+nav {
     background: #131921;
     color: white;
     display: flex;
     height: 60px;
     align-items: center;
     justify-content: space-between;
+    font: 14px "AmazonEmberBold", Aria, sans-serif;
+    position: static;
+    float: none;
 }
 
 
 .amazonLogo {
     width: auto;
     height: 30px;
+    margin-left: 1px;
+    padding: 1px 8px 0px 6px;
+}
+
+.locationDiv {
+
 }
 
 #departments {
@@ -20,7 +35,7 @@ header {
 }
 
 .shoppingCart {
-
+    height: 40px;
 }
 
 .searchIcon {
