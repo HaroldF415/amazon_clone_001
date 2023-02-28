@@ -5,7 +5,7 @@
 
 }
 
-nav {
+header {
     background: #131921;
     color: white;
     display: flex;
@@ -23,10 +23,6 @@ nav {
     height: 30px;
     margin-left: 1px;
     padding: 1px 8px 0px 6px;
-}
-
-.locationDiv {
-
 }
 
 #departments {
