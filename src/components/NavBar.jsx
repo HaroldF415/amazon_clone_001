@@ -14,9 +14,11 @@ const NavBar = () => {
               <img src={amazonLogo} alt="Amazon Logo" className="amazonLogo" />
             </div>
             <div id="nav-global-location">
-              <img src={locationIcon} alt="Location Icon" />
-              <p>Hello</p>
-              <p>Select your address</p>
+              <img className="locationIcon" src={locationIcon} alt="Location Icon" />
+              <div className="nav-location-text">
+                <span className="nav-line-1">Hello</span>
+                <span className="nav-line-2">Select your address</span>
+              </div>
             </div>
           </div>
           <div class="nav-fill">
@@ -24,17 +26,22 @@ const NavBar = () => {
               <SearchBar />
             </div>
           </div>
-          <div class="nav-right"></div>
+          <div class="nav-right">
+            <div>
+              <span>Hello, sign in</span>
+              <span>Account & Lists</span>
+            </div>
+            <div>
+              <span></span>Returns<span>& Orders</span>
+            </div>
+            <img
+              src={shoppingCart}
+              alt="Shopping Cart Icon"
+              className="shoppingCart"
+            />
+          </div>
         </div>
       </div>
-      <div>
-        <span>Hello, sign in</span><span>Account & Lists</span>
-        
-      </div>
-      <div>
-        <span></span>Returns<span>& Orders</span>
-      </div>
-      <img src={shoppingCart} alt="Shopping Cart Icon" className="shoppingCart" />
     </header>
   );
 };

@@ -6,17 +6,68 @@
 }
 
 header {
+   
+}
+
+#navbar {
+    display: flex;
+}
+
+#nav-belt {
     background: #131921;
     color: white;
     display: flex;
     height: 60px;
+    flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
     font: 14px "AmazonEmberBold", Aria, sans-serif;
     position: static;
-    float: none;
+    width: 100%;
 }
 
+.nav-left {
+    height: 60px;
+    display: flex;
+    width: auto;
+}
+
+#nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+#nav-global-location {
+    display: flex;
+    padding: 0 9px 0 9px;
+    align-items: center;
+    width: fit-content;
+    height: auto;
+}
+
+.locationIcon {
+    margin-top: 8px;
+}
+
+.nav-location-text {
+    display: flex;
+    flex-flow: column nowrap;  
+    align-items: flex-start;
+}
+
+.nav-line-1 {
+    color: #ccc;
+    line-height: 14px;
+    font-size: 12px;
+}
+
+.nav-line-2 {
+
+}
+
+.nav-fill {
+
+}
 
 .amazonLogo {
     width: auto;
