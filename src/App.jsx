@@ -5,6 +5,7 @@ import { NavBar, TopDiv, BottomDiv } from "./components";
 import axios from "axios";
 
 import "./styles/App.css";
+import "./styles/font/Ember/AmazonEmber_Bd.ttf";
 
 function App() {
   const [mock, setMock] = useState([]);
