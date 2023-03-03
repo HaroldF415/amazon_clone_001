@@ -1,4 +1,5 @@
-import searchBar from "../Icons/searchIcon.png"
+import searchBar from "../Icons/searchIcon.png";
+import arrowDropDown from "../Icons/arrow_drop_down.png";
 
 export default function SearchBar() {
     return(
@@ -8,11 +9,11 @@ export default function SearchBar() {
                 <div id="nav-search-dropdown-card">
                     <div className="nav-search-facade">
                         <span id="nav-search-label-id" className="nav-search-label" style={{width: "auto"}}>All</span>
-                        <img src="" alt="nav icon" className="nav-icon" />
+                        <img src={arrowDropDown} alt="nav icon" className="nav-icon" />
                     </div>
                     <label htmlFor="searchDropdownBox" id="searchDropdownDescription" style={{display: "none"}}>Select the department you want to search in</label>
                     <select name="url" id="searchDropdownBox" className="nav-search-dropdown" style={{display: "block", top: "2.5px" }}>
-                        <option selected="selected" value="All">All Departments</option>
+                        <option defaultChecked="selected" value="All">All Departments</option>
                         <option value="electronics">Electronics</option>
                     </select>
                 </div>

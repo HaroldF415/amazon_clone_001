@@ -13,3 +13,6 @@ Added Amazon Ember font to font folder and imported it into App.js and NavBar.cs
 ### 02/28/23
 
 Refactored the jsx for the NavBar component, attempting to follow the layout of the original Amazon site. I left out some elements that we may not use in our mock project that may have been on the original Amazon page. Will section the navbar into two sections: the nav-belt and the nav-bottom-belt. Began updating the style of the nav-belt.
+
+### 02/28/23 
+Styled the dropdown menu for the search bar.

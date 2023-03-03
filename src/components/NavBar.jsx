@@ -9,7 +9,7 @@ const NavBar = () => {
     <header id="navbar-main">
       <div id="navbar">
         <div id="nav-belt">
-          <div class="nav-left">
+          <div className="nav-left">
             <div id="nav-logo">
               <img src={amazonLogo} alt="Amazon Logo" className="amazonLogo" />
             </div>
@@ -21,12 +21,12 @@ const NavBar = () => {
               </div>
             </div>
           </div>
-          <div class="nav-fill">
+          <div className="nav-fill">
             <div id="nav-search">
               <SearchBar />
             </div>
           </div>
-          <div class="nav-right">
+          <div className="nav-right">
             <div>
               <span>Hello, sign in</span>
               <span>Account & Lists</span>
