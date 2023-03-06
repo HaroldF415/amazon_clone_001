@@ -5,10 +5,6 @@
 
 }
 
-header {
-   
-}
-
 #navbar {
     display: flex;
 }
@@ -26,17 +22,18 @@ header {
     width: 100%;
 }
 
-.nav-left {
-    height: 60px;
+.nav-left,
+.nav-right {
+    height: 40px;
     display: flex;
-    width: auto;
+    width: 52;
 }
 
 #nav-logo {
     display: flex;
     align-items: center;
     width: 113px;
-    height: 60px;
+    height: auto;
     padding-top: 4px;
     margin-left: 1px;
 }
@@ -47,6 +44,7 @@ header {
     align-items: center;
     width: fit-content;
     height: auto;
+    min-width: 170px;
 }
 
 .locationIcon {
@@ -70,6 +68,7 @@ header {
 }
 
 .nav-fill {
+    height: 60px;
 
 }
 
@@ -89,8 +88,13 @@ header {
     height: 40px;
 }
 
+.search-nav-left {
+    height: 40px;
+    width: 52px;   
+}
+
 .searchIcon {
-    background: #febd69;
+    height: 30px;
 }
 
 .nav-icon {
@@ -167,3 +171,41 @@ header {
     border: 0;
     line-height: 35px;
 }
+
+form,
+.nav-search-field {
+    display: flex;
+    flex: 1 1 0px;
+    height: 40px;
+    background: #fff;
+    border-radius: 4px 4px 4px 4px;
+}
+
+#searchTextBox {
+    display: flex;
+    width: 100%;
+    line-height: 15px;
+    padding: 7px 10px 10px 0;
+    margin: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: 15px;
+    background: #fff;
+    color: #111;
+    outline: 0;
+    box-shadow: none;
+    text-indent: 8px;
+    direction: ltr;    
+}
+
+.searchButtonDiv {
+    background-color: #febd69;
+    background-image: none;
+    border: none;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 4px 4px 0;
+}
+
+

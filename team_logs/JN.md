@@ -16,3 +16,7 @@ Refactored the jsx for the NavBar component, attempting to follow the layout of 
 
 ### 02/28/23 
 Styled the dropdown menu for the search bar.
+
+### 03/05/23
+
+Worked on the styling of the search bar. Need to adjust the width of the bar.

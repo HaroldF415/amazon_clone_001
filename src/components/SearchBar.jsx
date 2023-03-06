@@ -5,7 +5,7 @@ export default function SearchBar() {
     return(
 
         <form id="nav-search-bar-form" className="nav-searchbar">
-            <div className="nav-left">
+            <div className="search-nav-left">
                 <div id="nav-search-dropdown-card">
                     <div className="nav-search-facade">
                         <span id="nav-search-label-id" className="nav-search-label" style={{width: "auto"}}>All</span>
@@ -24,7 +24,7 @@ export default function SearchBar() {
                     <input type="text" id="searchTextBox" placeholder="Search Amazon" className="nav-input" spellCheck="false" name="field-keywords"/>
                 </div>
             </div>
-            <div className="nav-right">
+            <div className="nav-right searchButtonDiv">
                 <span id="nav-search-submit-text">
                     <img src={searchBar} alt="Search Icon" className="searchIcon" />
                 </span>
