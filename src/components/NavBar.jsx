@@ -1,8 +1,10 @@
 import SearchBar from "./SearchBar";
-import "../styles/NavBar.css";
 import amazonLogo from "../Icons/AmazonLogo.png"
 import locationIcon from "../Icons/locationIcon.png"
 import shoppingCart from "../Icons/shoppingCart.png"
+import arrowDropDown from "../Icons/arrow_drop_down.png";
+import "../styles/NavBar.css";
+
 
 const NavBar = () => {
   return (
@@ -27,12 +29,13 @@ const NavBar = () => {
             </div>
           </div>
           <div className="nav-right">
-            <div>
-              <span>Hello, sign in</span>
+            <div className="accountList">
+              <span className="topSpan">Hello, sign in</span>
               <span>Account & Lists</span>
+              <img src={arrowDropDown} alt="nav icon" className="signInDropdown" />
             </div>
-            <div>
-              <span></span>Returns<span>& Orders</span>
+            <div className="returnOrder">
+              <span className="topSpan">Returns</span><span>& Orders</span>
             </div>
             <img
               src={shoppingCart}

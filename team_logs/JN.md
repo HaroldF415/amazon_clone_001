@@ -20,3 +20,7 @@ Styled the dropdown menu for the search bar.
 ### 03/05/23
 
 Worked on the styling of the search bar. Need to adjust the width of the bar.
+
+### 03/08/23
+
+Completed the styling of the top section of the nav bar. Adjusted the sizing of the api images so that they fit inside of their containers.
